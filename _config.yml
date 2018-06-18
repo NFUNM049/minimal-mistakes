@@ -18,8 +18,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "zh-CN"
 title                    : "minimal mistakes主题搭建的网站"
 title_separator          : "："
-name                     : "林晓君"
-description              : "使用jeykll搭建的网站"
+name                     : &name "林晓君"
+description              : &description "使用jeykll搭建的网站"
 url                      : https://nfunm049.gitt.io
 baseurl                  : /minimal-mistake
 repository               : "nfunm049/minimal-mistakes"
