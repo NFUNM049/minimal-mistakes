@@ -100,10 +100,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "林晓君"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "I am an lazy girl."
+  location         : "深圳"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
