@@ -15,15 +15,15 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
-title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+locale                   : "zh-CN"
+title                    : "minimal mistakes主题搭建的网站"
+title_separator          : "："
+name                     : "林晓君"
+description              : "使用jeykll搭建的网站"
+url                      : https://nfunm049.gitee.io/minimal-mistakes
+baseurl                  : /minimal-mistake
+repository               : "nfunm049/minimal-mistakes"
+teaser                   : "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
