@@ -21,7 +21,7 @@ title_separator          : "："
 name                     : &name "林晓君"
 description              : &description "使用jeykll搭建的网站"
 url                      : https://nfunm049.gitee.io
-baseurl                  : /minimal-mistake
+baseurl                  : "/minimal-mistakes"
 repository               : "nfunm049/minimal-mistakes"
 teaser                   : "500×300.png"
 # breadcrumbs            : false # true, false (default)
