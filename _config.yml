@@ -20,10 +20,10 @@ title                    : "minimal mistakes主题搭建的网站"
 title_separator          : "："
 name                     : &name "林晓君"
 description              : &description "使用jeykll搭建的网站"
-url                      : https://nfunm049.gitt.io
+url                      : https://nfunm049.gitee.io
 baseurl                  : /minimal-mistake
 repository               : "nfunm049/minimal-mistakes"
-teaser                   : "500x300.png"
+teaser                   : "500×300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
