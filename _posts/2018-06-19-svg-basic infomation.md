@@ -1,5 +1,5 @@
 ---
-title:  "svg的历史"
+title:  "svg的基本说明"
 categories: 
   - 网页设计
 tags:
