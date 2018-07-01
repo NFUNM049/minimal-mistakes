@@ -16,7 +16,7 @@ header:
 
 {% include base_path %}
 
-{% include toc title="Getting Started" %}
+{% include toc title="目录" %}
 
 # SVG的历史
 

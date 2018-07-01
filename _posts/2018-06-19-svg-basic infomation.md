@@ -8,7 +8,7 @@ tags:
 
 {% include base_path %}
 
-{% include toc title="Getting Started" %}
+{% include toc title="目录" %}
 
 SVG 全称是 Scalable Vector Graphics，即矢量图，可以解决位图放大失真的问题。我们不要把 SVG 和 CSS，Canvas，HTML 搞混。Canvas提供的功能更原始，适合像素处理，动态渲染和大数据量绘制；**SVG 是通过 XML 的形式写在 HTML 文档中的，而且功能更完善，适合静态图片展示，高保真文档查看和打印的应用场景。**
 
