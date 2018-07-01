@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "_mint_xiaojun" # "air", "aqua", "contrast", "dark", 
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "使用minimal-mistakes主题的Jekyll网站"
+title                    : "林晓君的个人网站"
 title_separator          : "："
 name                     : "林晓君"
 description              : "使用Jekyll搭建的网站"
