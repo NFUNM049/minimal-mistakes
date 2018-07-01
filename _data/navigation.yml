@@ -4,13 +4,16 @@ main:
     url: https://www.jianshu.com/u/9be84c761435
     
   - title: "SVG制作"
-    url: 
+    url: /svg/
     
   - title: "界面设计"
-    url: 
+    url: /year-archive/
     
   - title: "平面设计"
-    url: 
+    url: /year-archive/
     
   - title: "about"
-    url: 
+    url: /about/
+    
+  - title: "Quick-Start Guide"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
