@@ -4,6 +4,13 @@ categories:
   - 网页设计
 tags:
   - svg
+classes: wide
+excerpt: "尝试用svg制作动画"
+header:
+  overlay_image: /images/sky.jpg
+  # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+# cta_label: "More Info"
+# cta_url: "https://unsplash.com"
 ---
 
 {% include base_path %}
