@@ -40,7 +40,7 @@ SVG 渐变必须在 <defs> 标签中进行定义。
 1.线性渐变<linearGradient>
 2.放射渐变<radialGradient> 
 
-##svg动画
+## svg动画
 我们如果想实现一个动画效果，可以通过css和js实现。
 另一种方法是直接使用svg自带的动画属性animate，这个方法会更加的便利和简单。
 [svg动画例子](https://www.villainhr.com/page/2017/05/01/SVG%20%E5%8A%A8%E7%94%BB%E7%B2%BE%E9%AB%93)
