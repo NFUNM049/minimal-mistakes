@@ -7,7 +7,7 @@ tags:
 classes: wide
 excerpt: "svg基本信息"
 header:
-  overlay_image: /images/purple sky.jpg
+  overlay_image: /images/boy and sea.jpg
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 # cta_label: "More Info"
 # cta_url: "https://unsplash.com"
@@ -25,9 +25,6 @@ SVG 全称是 Scalable Vector Graphics，即矢量图，可以解决位图放大
 * 可以被很多工具读取。
 * 可伸缩。
 * 它采用文本来描述图像。
-
-## 在HTML插入svg
-* 使用<embed>、<object> 、 <iframe>、通过<svg>来插入到HTML中。
 
 ## svg形状
 * 矩形 <rect>
