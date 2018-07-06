@@ -5,9 +5,9 @@ categories:
 tags:
   - svg
 classes: wide
-excerpt: "svg动画制作的基本步骤"
+excerpt: "svg动画制作的基本步骤和思路"
 header:
-  overlay_image: /images/svg head page.jpg
+  overlay_image: /images/SVG.jpg
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 # cta_label: "More Info"
 # cta_url: "https://unsplash.com"

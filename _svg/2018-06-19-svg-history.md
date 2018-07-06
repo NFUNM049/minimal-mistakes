@@ -7,7 +7,7 @@ tags:
 classes: wide
 excerpt: "SVG允许在代码中使用矢量点来描述二维图像，相比位图具有特殊优势"
 header:
-  overlay_image: /images/sea.jpg
+  overlay_image: /images/SVG.jpg
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 # cta_label: "More Info"
 # cta_url: "https://unsplash.com"

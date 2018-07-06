@@ -1,10 +1,17 @@
 ---
-title:  "平面设计的第三篇笔记"
+title:  "平面设计-视觉设计和视觉结构"
 modified: 2018-07-05 
 categories: 
   - 平面设计
 tags:
   - 笔记
+classes: wide
+excerpt: "网页的视觉设计和视觉结构"
+header:
+  overlay_image: /images/graphic design.jpg
+  # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+# cta_label: "More Info"
+# cta_url: "https://unsplash.com"
 ---
 
 {% include base_path %}

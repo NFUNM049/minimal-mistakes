@@ -1,10 +1,17 @@
 ---
-title:  "界面设计的第三篇笔记"
+title:  "界面设计-主题颜色"
 modified: 2018-07-01 
 categories: 
   - 界面设计
 tags:
   - 笔记
+classes: wide
+excerpt: "个人网站的主题颜色选择"
+header:
+  overlay_image: /images/interface design.jpg
+  # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+# cta_label: "More Info"
+# cta_url: "https://unsplash.com"
 ---
 
 {% include base_path %}

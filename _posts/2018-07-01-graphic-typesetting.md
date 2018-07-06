@@ -1,10 +1,17 @@
 ---
-title:  "平面设计的第一篇笔记"
+title:  "平面设计-排版"
 modified: 2018-06-26 T16:03:49-04:00
 categories: 
   - 平面设计
 tags:
   - 笔记
+classes: wide
+excerpt: "网页中的排版设计"
+header:
+  overlay_image: /images/graphic design.jpg
+  # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+# cta_label: "More Info"
+# cta_url: "https://unsplash.com"
 ---
 
 {% include base_path %}
