@@ -9,6 +9,7 @@ classes: wide
 excerpt: "设置适合的网页字体"
 header:
   overlay_image: /images/interface design.jpg
+  teaser: /images/interface design.jpg
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 # cta_label: "More Info"
 # cta_url: "https://unsplash.com"

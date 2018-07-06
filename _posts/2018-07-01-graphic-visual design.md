@@ -9,6 +9,7 @@ classes: wide
 excerpt: "网页的视觉设计和视觉结构"
 header:
   overlay_image: /images/graphic design.jpg
+  teaser: /images/graphic design.jpg
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 # cta_label: "More Info"
 # cta_url: "https://unsplash.com"
