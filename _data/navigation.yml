@@ -17,3 +17,31 @@ main:
     
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    
+docs:
+  - title: 平面设计
+    children:
+      - title: "平面设计-视觉设计和视觉结构"
+        url: https://nfunm049.gitee.io/minimal-mistakes/%E5%B9%B3%E9%9D%A2%E8%AE%BE%E8%AE%A1/graphic-visual-design/
+      - title: "平面设计-排版"
+        url: https://nfunm049.gitee.io/minimal-mistakes/%E5%B9%B3%E9%9D%A2%E8%AE%BE%E8%AE%A1/graphic-typesetting/
+      - title: "平面设计-网页的构造、功能"
+        url: https://nfunm049.gitee.io/minimal-mistakes/%E5%B9%B3%E9%9D%A2%E8%AE%BE%E8%AE%A1/graphic-construction-and-function/
+  - title: 界面设计
+    children:
+      - title: "界面设计-主题颜色"
+        url: https://nfunm049.gitee.io/minimal-mistakes/%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1/interface-color-design/
+      - title: "界面设计-版式设计"
+        url: https://nfunm049.gitee.io/minimal-mistakes/%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1/interface-interface-design/
+      - title: "界面设计-设置网页字体"
+        url: https://nfunm049.gitee.io/minimal-mistakes/%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1/interface-font-selection/
+  - title: SVG效果制作
+    children:
+      - title: "svg的基本说明"
+        url: https://nfunm049.gitee.io/minimal-mistakes/svg/2018-06-19-svg-basic%20infomation/
+      - title: "svg的历史"
+        url: https://nfunm049.gitee.io/minimal-mistakes/svg/2018-06-19-svg-history/
+      - title: "svg动画"
+        url: https://nfunm049.gitee.io/minimal-mistakes/svg/2018-07-03-svg-animate/
+      - title: "svg动画制作的基本步骤"
+        url: https://nfunm049.gitee.io/minimal-mistakes/svg/2018-07-06-svg-animation-step/

@@ -219,8 +219,13 @@ defaults:
       author_profile: true
       share: true
       comments: true
-      
-
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
 # Sass/SCSS
 sass:
   sass_dir: _sass

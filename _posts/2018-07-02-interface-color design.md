@@ -13,6 +13,8 @@ header:
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 # cta_label: "More Info"
 # cta_url: "https://unsplash.com"
+sidebar:
+  nav: "docs"
 ---
 
 {% include base_path %}
