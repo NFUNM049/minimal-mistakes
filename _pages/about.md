@@ -3,13 +3,6 @@ title: "关于我"
 permalink: /about/
 date: 2018-07-01
 author_profile: true
-classes: wide
-excerpt: "SVG允许在代码中使用矢量点来描述二维图像，相比位图具有特殊优势"
-header:
-  overlay_image: /images/tree.png
-  # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-# cta_label: "More Info"
-# cta_url: "https://unsplash.com"
 ---
 
 ## 就读于中山大学南方学院文学与传媒学院网络与新媒体专业
