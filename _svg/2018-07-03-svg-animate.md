@@ -62,92 +62,6 @@ header:
 	</body>
 </html>
 
-## 活奔乱跳的PS
-做这个的话其实没有达到我想要的效果，我原本想的是ps两个字母从上面掉下来然后弹两下后弹回原位。有想法但是做不出！所以只能做简单一点的了。
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-		<style>
-		
-		</style>
-	</head>
-	<body>
-		
-	<?xml version="1.0" standalone="no"?>
-	<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-	<svg t="1530888404261" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2380" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200">
-		
-		<defs><style type="text/css"></style></defs>
-		
-				<path id="bg" d="M892.1 288.6v612.2c0 15.2-12.3 27.4-27.4 27.4H230.5c-11.5 
-				0-20.9-9.3-20.9-20.9V79.5c0-8.4 6.8-15.3 15.3-15.3h427.4c0.9 0 1.3 
-				1 0.7 1.7-0.4 0.4-0.4 1 0.1 1.4l238.7 220.5c0.2 0.3 0.3 0.5 0.3 0.8z" 
-				fill="#0B1C24" p-id="2381">
-				<animateTransform 
-		             attributeName="transform"
-		             type="scale"
-		             values="1;1.1;1"
-		             keyTimes="0;0.5;1"
-		             begin="0" dur="1.5s" repeatCount="indefinite"
-		             fill="freeze"></animate>
-				</path>
-			
-				<path id="line" d="M541.7 384.7h-466c-7.3 0-13.2-5.9-13.2-13.2v-178c0-7.3 
-				5.9-13.2 13.2-13.2h466c7.3 0 13.2 5.9 13.2 13.2v178c0 7.3-5.9 13.2-13.2 
-				13.2zM652.5 273.8V64.2l239.7 223.9H666.8c-7.9 0.1-14.3-6.4-14.3-14.3z" 
-				fill="#4FC1FF" 
-				p-id="2382">
-				<animateTransform 
-		             attributeName="transform"
-		             type="scale"
-		             values="1;1.1;1"
-		             keyTimes="0;0.5;1"
-		             begin="0" dur="1.5s" repeatCount="indefinite"
-		             fill="freeze"></animate>
-				</path>
-				
-				<path d="M214.1 294.2V321h-16.4v-76.9h26.5c19.1 0 
-				28.7 8.1 28.7 24.3 0 7.9-2.9 14.2-8.7 18.9-5.8 4.8-13 7-21.7 6.8h-8.4z 
-				m0-37.4v24.8h7.1c9.6 0 14.5-4.2 14.5-12.6 0-8.2-4.8-12.3-14.3-12.3h-7.3zM261 
-				301.6c6.2 5.1 13.2 7.7 21.1 7.7 4.5 0 7.8-0.8 10.1-2.3 2.3-1.5 3.4-3.5 
-				3.4-5.9 0-2.1-0.9-4.1-2.7-5.9-1.8-1.9-6.5-4.4-14.2-7.5-12-5.1-18-12.5-18-22.2 
-				0-7.2 2.7-12.7 8.2-16.7 5.4-4 12.7-5.9 21.6-5.9 7.5 0 13.8 1 18.9 
-				2.9v15.4c-5.2-3.5-11.2-5.3-18.1-5.3-4 0-7.3 0.7-9.7 2.2-2.4 1.5-3.6 
-				3.5-3.6 5.9 0 2 0.8 3.8 2.5 5.5 1.7 1.7 5.7 3.9 12.3 6.8 7.6 3.3 12.9 
-				6.7 15.8 10.4 2.9 3.6 4.3 8 4.3 13 0 7.4-2.6 13-7.8 16.9-5.2 3.9-12.7 
-				5.8-22.3 5.8-8.8 0-16-1.4-21.7-4.3v-16.5zM325.7 321v-76.9h26.6c27.3 0 
-				41 12.5 41 37.5 0 11.9-3.8 21.4-11.5 28.6-7.6 7.2-17.5 10.8-29.6 10.8h-26.5z 
-				m16.4-63.5v50.1h8.9c7.8 0 13.9-2.3 18.3-7 4.4-4.6 6.7-10.9 
-				6.7-18.8 0-7.6-2.3-13.6-7-17.9-4.6-4.3-10.7-6.4-18.1-6.4h-8.8z" 
-				fill="" p-id="2383">
-				<animate attributeName="opacity" begin="0s" dur="3s" values="1;0;1"
-		             keyTimes="0;0.5;1" repeatCount="indefinite" />
-				</path>
-				
-				<path id="ps" d="M449.2 677.6V759h-44.8V525.4h72.4c52.3 0 78.5 24.6 78.5 73.9 0 
-					23.9-7.9 43.1-23.7 57.5-15.8 14.4-35.6 21.3-59.3 20.7h-23.1z m0-113.6v75.4h19.4c26.3 
-					0 39.5-12.7 39.5-38.2 0-24.8-13-37.2-39.1-37.2h-19.8zM578.8 714.2c15 10.2 
-					29.7 15.2 44.1 15.2 18.1 0 27.2-5.4 27.2-16.1 
-					0-7.6-7.5-14-22.4-19.2-18.6-6.4-31.5-13.6-38.4-21.5-7-7.9-10.5-18.6-10.5-32 0-16.4 
-					6-29.2 17.9-38.5 11.9-9.3 27.6-13.9 47-13.9 13.8 0 27 2.3 
-					39.8 6.8v38.3c-11.7-7.6-24.5-11.5-38.6-11.5-7 0-12.6 1.4-16.8 
-					4.1-4.3 2.8-6.4 6.4-6.4 10.9 0 7.6 6.3 13.8 19 18.5 13.6 5 
-					23.8 9.6 30.6 13.7 6.8 4.1 12 9.6 15.6 16.3 3.6 6.7 5.4 14.5 
-					5.4 23.4 0 17.2-6.2 30.5-18.6 40-12.4 9.5-29 14.3-49.7 14.3-16.3 
-					0-31.4-2.9-45.2-8.6v-40.2z" fill="#4FC1FF" p-id="2384">
-					<animateTransform 
-		             attributeName="transform"
-		             type="scale"
-		             values="1;0.9;1"
-		             keyTimes="0;0.5;1"
-		             begin="0" dur="1.5s" repeatCount="indefinite"
-		             fill="freeze"></animate>
-			    </path>
-		</svg>
-	</body>
-</html>
-
 
 ## 会闪的太阳
 这个是我的svg动画的第一个作品，有点拙劣。不过能动就让我很开心啦！第一次制作动画，我学会了使用stroke-dasharray、stroke-dashoffset这两个属性，通过它们我们可以制作出有趣的线条动画。
@@ -236,5 +150,57 @@ header:
 	</body>
 </html>
 
+## 乱飞的太阳
+在这个动画中，我遇到了些困难————太阳没有按我给的路径飞！！！我确认过很多次，路径是没有错的，但是太阳就是瞎飞飞，可能它有自己的理想吧......
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+				<style>
+			svg {
+				width: 60%;
+				height: 50%;
+			}
+		</style>
+	</head>
+	<body>
+				<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+		<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 viewBox="0 0 900 500" style="enable-background:new 0 0 900 500;" xml:space="preserve">
+			<style type="text/css">
+				.st0{fill:#C4FFFD;stroke:#000000;stroke-miterlimit:10;}
+				.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}
+				.st2{fill:#FFE500;}
+				.st3{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+				.st4{fill:#FF7C16;}
+				.st5{fill:#FF4006;}
+			</style>
+			<rect y="0" class="st0" width="900" height="500"/>
+			<!--<path class="st1" id="line" d="M900,499c-51.6-229.2-261.1-385.1-483.2-369.4C217.1,143.8,44.9,294.2,0,499C0,331,0,163,0-5h900V499z"/>-->
+			<g id="sun">
+				<circle class="st2" cx="176.8" cy="221.7" r="60.5"/>
+				<ellipse class="st2" cx="184.5" cy="133.1" rx="6.1" ry="18.4"/>
+				<ellipse class="st2" cx="185" cy="309.3" rx="6.5" ry="16.7"/>
+				<ellipse transform="matrix(0.839 -0.5441 0.5441 0.839 -115.6321 178.8174)" class="st2" cx="244.4" cy="284.8" rx="6.4" ry="15.1"/>
+				<ellipse transform="matrix(4.710191e-02 -0.9989 0.9989 4.710191e-02 33.7314 478.818)" class="st2" cx="267.8" cy="221.7" rx="6.4" ry="15.4"/>
+				<ellipse transform="matrix(4.710191e-02 -0.9989 0.9989 4.710191e-02 -134.4107 294.6794)" class="st2" cx="87.2" cy="217.8" rx="6.2" ry="17.2"/>
+				<ellipse transform="matrix(0.839 -0.5441 0.5441 0.839 -63.7336 87.6642)" class="st2" cx="116.3" cy="151.5" rx="6.3" ry="16.9"/>
+				<ellipse transform="matrix(0.6384 -0.7697 0.7697 0.6384 -38.4008 248.2698)" class="st2" cx="245" cy="165" rx="15.9" ry="6.4"/>
+				<ellipse transform="matrix(0.6384 -0.7697 0.7697 0.6384 -179.4961 189.9759)" class="st2" cx="112.5" cy="286" rx="15.9" ry="6.4"/>
+				<ellipse cx="154.8" cy="211" rx="4" ry="7"/>
+				<path class="st1" d="M195,210"/>
+			<g>
+				<polyline class="st3" points="197.3,204 189.3,211 197.3,217.8 	"/>
+			</g>
+				<ellipse class="st4" cx="141.2" cy="229" rx="7.8" ry="4"/>
+				<ellipse class="st4" cx="208.2" cy="229" rx="7.8" ry="4"/>
+				<polygon class="st5" points="168.5,240 176.6,247 185.2,240 "/>
+				<animatemotion id="sun" path="M900,499c-51.6-229.2-261.1-385.1-483.2-369.4C217.1,143.8,44.9,294.2,0,499C0,331,0,163,0-5h900V499z" begin="0s" dur="8s" rotate="auto" repeatCount="indefinite">
+			</g>
+		</svg>
+
+	</body>
+</html>
 
 
