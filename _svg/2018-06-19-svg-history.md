@@ -13,7 +13,6 @@ header:
 # cta_url: "https://unsplash.com"
 sidebar:
   nav: "docs"
-breadcrumbs: true  # disabled by default
 ---
 
 {% include base_path %}
