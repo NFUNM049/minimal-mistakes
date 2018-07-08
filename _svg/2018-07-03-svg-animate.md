@@ -210,7 +210,9 @@ sidebar:
 </html>
 
 ## 先转几圈然后再走的方形
+
 虽然这个动画挺无聊，但我学会了如何让动画做完一个效果之后紧接着做下一个效果，即begin="c1.end+1.5s"。
+
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -219,7 +221,7 @@ sidebar:
 	<body>
 	
 <svg xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink" viewport="0 0 1000 1000" height="300" width="300">
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewport="0 0 1000 1000" height="100" width="300">
 
     <rect x="50" y="50" height="110" width="110"
          style="fill: #656524">
@@ -241,25 +243,26 @@ sidebar:
 </html>
 
 ## 怦然心动
+
 怦怦乱跳的心
+
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
 	</head>
 	<body>
-<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
 	 <g>
 	  	<title>background</title>
-	  	<rect fill="#fff" id="canvas_background" height="602" width="802" y="-1" x="-1"/>
 	  	<g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
 	   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
 	 	</g>
 	 </g>
 	 <g>
 	  <title>Layer 1</title>
-	  <path stroke="#fcfcf9" id="svg_1" d="m399.999992,263.164109c30.3037,-83.87237 149.034589,0 0,107.835904c-149.034589,-107.835904 -30.3037,-191.708273 0,-107.835904z" stroke-width="1.5" fill="#ff0f5b"/>
+	  <path stroke="#fcfcf9" id="svg_1" d="m399.999992,263.164109c30.3037,-83.87237 149.034589,0 0,107.835904c-149.034589,-107.835904 -30.3037,-191.708273 0,-107.835904z" stroke-width="0" fill="#ff0f5b"/>
   		<animateTransform 
              attributeName="transform"
              type="scale"
@@ -274,7 +277,9 @@ sidebar:
 </html>
 
 ## star
+
 一边转一边闪
+
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -286,7 +291,6 @@ sidebar:
 			 <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
 				 <g>
 					  <title>background</title>
-					  <rect fill="#fff" id="canvas_background" height="602" width="802" y="-1" x="-1"/>
 					  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
 					   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
 					  </g>
