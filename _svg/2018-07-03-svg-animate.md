@@ -66,7 +66,7 @@ sidebar:
 
 ## 活奔乱跳的PS
 做这个的话其实没有达到我想要的效果，我原本想的是ps两个字母从上面掉下来然后弹两下后弹回原位。有想法但是做不出！所以只能做简单一点的了。
-
+(不知道为啥放不上来？)
 [点击查看动画](http://127.0.0.1:8020/HelloHBuilder/svg09.html)
 
 ## 会闪的太阳
@@ -209,4 +209,105 @@ sidebar:
 	</body>
 </html>
 
+## 先转几圈然后再走的方形
+虽然这个动画挺无聊，但我学会了如何让动画做完一个效果之后紧接着做下一个效果，即begin="c1.end+1.5s"。
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewport="0 0 1000 1000" height="300" width="300">
 
+    <rect x="50" y="50" height="110" width="110"
+         style="fill: #656524">
+        <animateTransform
+        	id="first"
+            attributeName="transform"
+            begin="0s"
+            dur="3s"
+            type="rotate"
+            from="0 105 105"
+            to="360 105 105"
+            repeatCount="1"
+            fill="freeze"
+        />
+        <animate attributeName="x" from="-60" to="300" 
+        	begin="first.end" dur="2s" repeatCount="indefinite" />
+    </rect>
+	</body>
+</html>
+
+## 怦然心动
+怦怦乱跳的心
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+	 <g>
+	  	<title>background</title>
+	  	<rect fill="#fff" id="canvas_background" height="602" width="802" y="-1" x="-1"/>
+	  	<g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+	   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+	 	</g>
+	 </g>
+	 <g>
+	  <title>Layer 1</title>
+	  <path stroke="#fcfcf9" id="svg_1" d="m399.999992,263.164109c30.3037,-83.87237 149.034589,0 0,107.835904c-149.034589,-107.835904 -30.3037,-191.708273 0,-107.835904z" stroke-width="1.5" fill="#ff0f5b"/>
+  		<animateTransform 
+             attributeName="transform"
+             type="scale"
+             values="1;1.5;1"
+             keyTimes="0;0.2;1"
+             calcMode="spline" keySplines=".5 0 .5 1;.5 0 .5 1"
+             begin="0" dur="1.5s" repeatCount="indefinite"
+             fill="freeze"></animate>
+ </g>
+</svg>
+	</body>
+</html>
+
+## star
+一边转一边闪
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div>
+			<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+			 <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+				 <g>
+					  <title>background</title>
+					  <rect fill="#fff" id="canvas_background" height="602" width="802" y="-1" x="-1"/>
+					  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+					   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+					  </g>
+				 </g>
+				 <g>
+				  	<title>Layer 1</title>
+				 	 <path stroke="#ffffff" id="svg_1" d="m1.2325,75.947817l75.368451,0l23.289431,-74.483575l23.289445,74.483575l75.368438,0l-60.974246,46.032854l23.290636,74.483575l-60.974273,-46.034107l-60.97426,46.034107l23.290643,-74.483575l-60.974266,-46.032854z" stroke-width="1.5" fill="#fcc567"/>
+				 	<animateTransform
+				 		attributeName="transform"
+				 		begin="0s"
+				 		dur="5s"
+				 		type="rotate"
+				 		from="0 100 100"
+				 		to="360 100 100"
+				 		repeatCount="indefinite"
+				 		/>
+				 	
+				 	<animate attributeName="opacity" begin="0s" dur="2s" values="1;0;1" repeatCount="indefinite" />
+				 	
+				 </g>
+			</svg>
+		</div>
+	</body>
+</html>
