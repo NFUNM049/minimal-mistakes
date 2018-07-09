@@ -211,7 +211,7 @@ sidebar:
 
 ## 先转几圈然后再走的方形
 
-虽然这个动画挺无聊，但我学会了如何让动画做完一个效果之后紧接着做下一个效果，即begin="c1.end+1.5s"。
+在这个动画中我学会了如何让动画做完一个效果之后紧接着做下一个效果，即begin="c1.end+1.5s"同时我也学会了如何变换颜色。
 
 <html>
 	<head>
@@ -219,26 +219,39 @@ sidebar:
 		<title></title>
 	</head>
 	<body>
-	
-<svg xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink" viewport="0 0 1000 1000" height="100" width="300">
-
-    <rect x="50" y="50" height="110" width="110"
-         style="fill: #656524">
-        <animateTransform
-        	id="first"
-            attributeName="transform"
-            begin="0s"
-            dur="3s"
-            type="rotate"
-            from="0 105 105"
-            to="360 105 105"
-            repeatCount="1"
-            fill="freeze"
-        />
-        <animate attributeName="x" from="-60" to="300" 
-        	begin="first.end" dur="2s" repeatCount="indefinite" />
-    </rect>
+		<svg xmlns="http://www.w3.org/2000/svg"
+    	xmlns:xlink="http://www.w3.org/1999/xlink" viewboc="0 0 1000 1000" height="300" width="1000">
+  			 <rect x="50" y="50" height="110" width="110"
+		         style="fill: #d299c2">
+		        		<animate
+					        	id="first"
+					            attributeName="x"
+					            begin="0; second.end"
+					            dur="2"
+					            from="50"
+					            to="400"
+					            fill=freeze"
+					            />
+		            
+				        <animate
+				        	id="second"
+					            attributeName="x"
+					            begin="first.end"
+					            dur="2"
+					            from="400"
+					            to="50"
+					            fill=freeze"
+					            />
+				        
+				        <animate
+						        	attributeType="xml"
+						        	attributeName="fill"
+						        	from="#d299c2"
+						        	to="#fef9d7"
+						        	dur="2s"
+						        	repeatCount="indefinite"
+						        	/>
+				</rect>
 	</body>
 </html>
 
@@ -252,27 +265,27 @@ sidebar:
 		<title></title>
 	</head>
 	<body>
-<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
- <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
-	 <g>
-	  	<title>background</title>
-	  	<g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
-	   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
-	 	</g>
-	 </g>
-	 <g>
-	  <title>Layer 1</title>
-	  <path stroke="#fcfcf9" id="svg_1" d="m399.999992,263.164109c30.3037,-83.87237 149.034589,0 0,107.835904c-149.034589,-107.835904 -30.3037,-191.708273 0,-107.835904z" stroke-width="0" fill="#ff0f5b"/>
-  		<animateTransform 
-             attributeName="transform"
-             type="scale"
-             values="1;1.5;1"
-             keyTimes="0;0.2;1"
-             calcMode="spline" keySplines=".5 0 .5 1;.5 0 .5 1"
-             begin="0" dur="1.5s" repeatCount="indefinite"
-             fill="freeze"></animate>
- </g>
-</svg>
+		<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ 		<!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+			 <g>
+			  	<title>background</title>
+			  	<g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+			   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+			 		</g>
+			 </g>
+			 <g>
+			  	<title>Layer 1</title>
+			  	<path stroke="#fcfcf9" id="svg_1" d="m399.999992,263.164109c30.3037,-83.87237 149.034589,0 0,107.835904c-149.034589,-107.835904 -30.3037,-191.708273 0,-107.835904z" stroke-width="0" fill="#ff0f5b"/>
+		  		<animateTransform 
+		             attributeName="transform"
+		             type="scale"
+		             values="1;1.5;1"
+		             keyTimes="0;0.2;1"
+		             calcMode="spline" keySplines=".5 0 .5 1;.5 0 .5 1"
+		             begin="0" dur="1.5s" repeatCount="indefinite"
+		             fill="freeze"></animate>
+		 	</g>
+		</svg>
 	</body>
 </html>
 
@@ -298,7 +311,7 @@ sidebar:
 				 <g>
 				  	<title>Layer 1</title>
 				 	 <path stroke="#ffffff" id="svg_1" d="m1.2325,75.947817l75.368451,0l23.289431,-74.483575l23.289445,74.483575l75.368438,0l-60.974246,46.032854l23.290636,74.483575l-60.974273,-46.034107l-60.97426,46.034107l23.290643,-74.483575l-60.974266,-46.032854z" stroke-width="1.5" fill="#fcc567"/>
-				 	<animateTransform
+				 		<animateTransform
 				 		attributeName="transform"
 				 		begin="0s"
 				 		dur="5s"
