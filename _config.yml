@@ -25,7 +25,7 @@ baseurl                  : "/minimal-mistakes"
 repository               : "nfunm049/minimal-mistakes"
 affiliation: "中山大学南方学院 <a href = 'http://newmedia.nfu.edu.cn/zh/'>网络与新媒体</a> 培养方案核心课程学期作品，由 <a href='http://newmedia.nfu.edu.cn/zh/team/%E5%90%B4%E9%9B%AA/#more-134'>吴雪</a> 指导"
 teaser                   : "500x300.png"
-breadcrumbs              : true # true, false (default)
+# breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -266,13 +266,12 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
-design_archive:
+category_archive:
   type: liquid
   path: /design/
 tag_archive:
   type: liquid
   path: /tags/
-permalink: /design/:title/  
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
